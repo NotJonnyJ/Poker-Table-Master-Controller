@@ -45,6 +45,7 @@ char I2C_Message;
 // Hex byte that is read in
 char Data_in;
 
+void UART_INIT();
 void I2C_INIT();
 void timerINIT();
 void readPlayerTwo();
